@@ -1,0 +1,9 @@
+# Ignore DB and other unneeded dirs/files
+mysql_data
+*.log
+*.tmp
+target/
+.idea/
+.vscode/
+node_modules/
+.env
