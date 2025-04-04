@@ -23,5 +23,6 @@ jobs:
             git remote set-url origin git@github.com:Suraj-kumar00/scm-devops-flickd-assignment.git
             git pull origin main
             docker-compose down
-            docker-compose up --build -d
+            docker-compose build --no-cache
+            docker-compose up -d
           EOF
