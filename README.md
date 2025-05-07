@@ -1,2 +1,2 @@
-# scm-devops-flickd-assignment
+# scm-springboot-application-devops
 
